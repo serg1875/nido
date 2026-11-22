@@ -380,8 +380,15 @@ function buildICS(eng, memberId, days = 30, now = new Date()) {
 /* =========================================================
    CONFIGURACIÓN (ver LEEME.md)
    ========================================================= */
-const FIREBASE_CONFIG = null;          // pega aquí el objeto firebaseConfig
-const HOGAR_ID = 'casa-sergio';        // cámbialo por algo único, igual que en las reglas
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyCrB5k22Ta11-ERO6jueHlRVKXH02Tau48",
+  authDomain: "maggieshouse-64376.firebaseapp.com",
+  projectId: "maggieshouse-64376",
+  storageBucket: "maggieshouse-64376.firebasestorage.app",
+  messagingSenderId: "218747528639",
+  appId: "1:218747528639:web:736530495a1b88999bad0a"
+};
+const HOGAR_ID = 'casa-maggie-q7x3';        // cámbialo por algo único, igual que en las reglas
 const VAPID_PUBLIC = '';               // llave pública para notificaciones push
 const FUNCTIONS_REGION = 'us-central1';
 
